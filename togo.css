@@ -14,21 +14,21 @@
 .intro {
     grid-area: i;
     background-color: aqua;
-    background-image: url("/photos/Guasco\ Sfoglina\ Intro.png");
+    background-image: url("photos/Guasco\ Sfoglina\ Intro.png");
     background-size: cover;
 }
 
 .prodotti {
     grid-area: p;
     background-color: chartreuse;
-    background-image: url("/photos/Guasco\ Sfoglina\ Prodotti.png");
+    background-image: url("photos/Guasco\ Sfoglina\ Prodotti.png");
     background-size: cover;
 }
 
 .dettagli {
     grid-area: d;
     background-color: cornflowerblue;
-    background-image: url("/photos/Guasco\ Sfoglina\ Prodotti\ Dettagli.png");
+    background-image: url("photos/Guasco\ Sfoglina\ Prodotti\ Dettagli.png");
     background-size: cover;
 }
 

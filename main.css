@@ -18,13 +18,13 @@
 
 .caffe {
     grid-area: c;
-    background-image: url("/photos/esterno-giorno.jpg");
+    background-image: url("photos/esterno-giorno.jpg");
     background-size: cover;
 }
 
 .togo {
     grid-area: t;
-    background-image: url("/photos/DSC_6118.jpg");
+    background-image: url("photos/DSC_6118.jpg");
     background-size: cover;
 }
 

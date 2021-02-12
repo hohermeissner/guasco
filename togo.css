@@ -1,0 +1,51 @@
+.page {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100vh 100vh 180vh 100vh;
+    grid-template-areas:
+    "i i i i"
+    "p p p p"
+    "d d d d"
+    "f f f f";
+    column-gap: 0.2em;
+    text-align: center;
+}
+
+.intro {
+    grid-area: i;
+    background-color: aqua;
+    background-image: url("/photos/Guasco\ Sfoglina\ Intro.png");
+    background-size: cover;
+}
+
+.prodotti {
+    grid-area: p;
+    background-color: chartreuse;
+    background-image: url("/photos/Guasco\ Sfoglina\ Prodotti.png");
+    background-size: cover;
+}
+
+.dettagli {
+    grid-area: d;
+    background-color: cornflowerblue;
+    background-image: url("/photos/Guasco\ Sfoglina\ Prodotti\ Dettagli.png");
+    background-size: cover;
+}
+
+.comefunziona {
+    grid-area: f;
+    background-color: darkcyan;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: rgb(233, 233, 233);
+}
+
+a, :active, a:visited {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
